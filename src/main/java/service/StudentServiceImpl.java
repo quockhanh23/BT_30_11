@@ -14,10 +14,10 @@ public class StudentServiceImpl implements StudentService {
 
     public StudentServiceImpl() {
         studentList = new ArrayList<>();
-        studentList.add(new Student(1, "khanh1",5,1,1));
-        studentList.add(new Student(2, "khanh2",6,1,1));
-        studentList.add(new Student(3, "khanh3",1,1,1));
-        studentList.add(new Student(4, "khanh4",9,1,1));
+        studentList.add(new Student(1, "khanh1", 5, 1, 1));
+        studentList.add(new Student(2, "khanh2", 6, 1, 1));
+        studentList.add(new Student(3, "khanh3", 1, 1, 1));
+        studentList.add(new Student(4, "khanh4", 9, 1, 1));
     }
 
     public List<Student> getStudentList() {
@@ -48,6 +48,7 @@ public class StudentServiceImpl implements StudentService {
         }
         return null;
     }
+
     @Override
     public int findIndexById(int id) {
         int index = -1;

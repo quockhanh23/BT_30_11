@@ -18,7 +18,7 @@
         ${sDelete.physics},
         ${sDelete.chemistry}
     </h2>
-    <button>confirm</button>
+    <button style="background: chartreuse; color: red">confirm</button>
 </form>
 </body>
 </html>

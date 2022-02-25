@@ -13,14 +13,14 @@
 </head>
 <body>
 <c:forEach items='${requestScope["list"]}' var="student">
-<h2>${student.id},
-${student.name},
-${student.math},
-${student.physics},
-${student.chemistry}
-    <a href="/students?action=edit&id=${student.id}">Edit</a>
-    <a href="/students?action=delete&id=${student.id}">Delete</a>
-</h2>
+    <h2>${student.id},
+            ${student.name},
+            ${student.math},
+            ${student.physics},
+            ${student.chemistry}
+        <a href="/students?action=edit&id=${student.id}">Edit</a>
+        <a href="/students?action=delete&id=${student.id}">Delete</a>
+    </h2>
 </c:forEach>
 </body>
 </html>
